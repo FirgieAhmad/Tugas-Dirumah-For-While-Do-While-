@@ -4,7 +4,7 @@ using namespace std;
 // Tugas Rumah 31 Maret 2020 === (For, While, D0 While)
 int main () {
 	// Menampilkan angka ganjil genap 11-1100
-	int angka_awal;
+	int angka_awal, angka_akhir;
 	cout << "Masukkan angka dari range 11-1100 : " << endl;
 	cin >> angka_awal;
 	
