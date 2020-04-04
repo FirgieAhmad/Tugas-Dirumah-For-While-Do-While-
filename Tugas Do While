@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+// Nama : Firgie Ahmad ==== NIM : ETE10190123
+// Tugas Rumah 31 Maret 2020 === (For, While, D0 While)
+int main () {
+	char huruf = 'Y' ;
+	/* Jika Dimasukkan Huruf N Maka Program Akan Berhenti Melakukan Perulangan
+	Tetapi Jika Dimasukkan Huruf Y  Maka Akan Menjalankan Program
+	*/
+	do {
+		cout << " Masukkan ' N '  untuk menghentikan perulangan " <<endl;
+		cout << " Masukkan huruf Y  : " <<endl;
+		cin >> huruf ;
+		
+	}while (huruf == 'Y');
+	return 0; 
+}
